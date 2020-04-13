@@ -1,0 +1,30 @@
+
+.container img {
+        width: 66%;
+        height: auto;
+            }
+
+body{
+    margin:0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    }
+
+body::after {
+  content: "";
+  background: url("https://multisac.es/wp-content/uploads/2017/04/Textura-de-Yute-2.jpg");
+  opacity: 0.65;
+  top: 0%;
+  left: 0%;
+  bottom: 0%;
+  right: 0%;
+  position: absolute;
+  z-index: -1;   
+  }
+  
+ h1.titulo {
+     margin: 0;
+     padding-top: 10px;
+ }
